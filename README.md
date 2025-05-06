@@ -28,7 +28,7 @@ This repository contains simulations related to magnetic phenomena and experimen
    ```bash
    cd simulations
    ```
-2. Run the desired simulation script:
+3. Run the desired simulation script:
    ```bash
    python simulation_name.py
    ```
