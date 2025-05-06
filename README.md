@@ -1,7 +1,7 @@
-# ACC File Processor
+# ACC File Library
 
 ## Overview
-This repository contains tools and scripts for processing `.acc` files. These files are used to store data related to [specific purpose, e.g., accelerometer readings, simulation results, etc.]. The tools provided here allow users to parse, analyze, and visualize `.acc` file data efficiently.
+This repository contains simulations for accretion disks of black holes based on initial conditions. Numbers are added onto acc to stress the increasing complexity of the variables added into the functions that define an accreting black hole system.
 
 ## Features
 - Parsing `.acc` files into structured formats.
