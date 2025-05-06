@@ -1,4 +1,4 @@
-# ACC File Library
+# Accretion and Compact-Object Collaboration
 
 ## Overview
 This repository contains simulations for accretion disks of black holes based on initial conditions. Numbers are added onto acc to stress the increasing complexity of the variables added into the functions that define an accreting black hole system.
