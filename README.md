@@ -1,37 +1,41 @@
-# Simulations for Magnetic Laboratory
+# ACC File Processor
 
 ## Overview
-This repository contains simulations related to magnetic phenomena and experiments. The simulations are designed to model and analyze various magnetic systems and their behaviors under different conditions.
+This repository contains tools and scripts for processing `.acc` files. These files are used to store data related to [specific purpose, e.g., accelerometer readings, simulation results, etc.]. The tools provided here allow users to parse, analyze, and visualize `.acc` file data efficiently.
 
 ## Features
-- Accurate modeling of magnetic fields and forces.
-- Configurable parameters for custom simulations.
-- Visualization tools for analyzing results.
+- Parsing `.acc` files into structured formats.
+- Data analysis and statistical summaries.
+- Visualization tools for `.acc` file data.
+- Support for batch processing of multiple `.acc` files.
 
 ## Getting Started
+
 ### Prerequisites
 - Python 3.x
-- Required libraries: `numpy`, `matplotlib`, etc.
+- Required libraries: `pandas`, `matplotlib`, `numpy`, etc.
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/mag-lab.git
+   git clone https://github.com/your-repo/acc-file-processor.git
    ```
-2. Install dependencies:
+2. Navigate to the repository directory:
+   ```bash
+   cd acc-file-processor
+   ```
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Running Simulations
-1. Navigate to the simulation directory:
+### Usage
+1. Place your `.acc` files in the `data/` directory.
+2. Run the main processing script:
    ```bash
-   cd simulations
+   python process_acc_files.py
    ```
-3. Run the desired simulation script:
-   ```bash
-   python simulation_name.py
-   ```
+3. View the output in the `output/` directory, which includes processed data and visualizations.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
